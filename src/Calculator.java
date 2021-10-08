@@ -14,6 +14,9 @@ public class Calculator {
         System.out.println(b);
         System.out.println(A);
 
+        //modulo
+        boolean even = 2%2 == 0;
+
 
         Calculator einsZweiDrei = new Calculator();
 
