@@ -18,6 +18,7 @@ public class Calculator {
         boolean even = 2%2 == 0;
 
 
+
         Calculator einsZweiDrei = new Calculator();
 
         System.out.println("einsZweiDrei = " + einsZweiDrei);
