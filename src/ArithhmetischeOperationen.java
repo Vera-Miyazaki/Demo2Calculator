@@ -25,6 +25,8 @@ public class ArithhmetischeOperationen {
         String st2 = new String("Hier könnte Ihre Werbung stehen");
        //st1==st2 ist FALSCH
 
+
+
         while (a <1000) {
             System.out.println("a ist " + a);a++;}
 
@@ -33,9 +35,9 @@ public class ArithhmetischeOperationen {
         printResult(result);
         printResult(add(8,22));
         printResult(substract(9,6));
-        printResult(multiplicate(5,8));
-        printResult(divide(4,2));
-        printResult(modulo(10,5));
+        printResult(multiplicate(2,8));
+        printResult(divide(7,0));
+        printResult(modulo(10,7));
 
     }
 
@@ -55,7 +57,10 @@ public class ArithhmetischeOperationen {
         return x * y;
     }
     public static int divide(int x, int y) {
-        return x / y;
+        if (y==0){
+            System.out.println("invalid");
+        }
+        return (x/y);
     }
     public static int modulo(int x, int y) {
         return x % y;
